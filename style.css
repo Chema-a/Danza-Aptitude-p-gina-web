@@ -364,10 +364,11 @@ hr.invis {
 }
 
 .margin_bottom_0 {
-    margin-bottom: 0 !important; 
+    margin-bottom: 0 !important;
 }
 
-a:focus, a:hover {
+a:focus,
+a:hover {
     color: #06389e;
     text-decoration: underline;
 }
@@ -626,7 +627,7 @@ form#commant_form div.field textarea.custom_field {
 
 .slide_cont {
     position:
-     absolute;
+        absolute;
     top: 415px;
     width: 100%;
 }
@@ -680,18 +681,21 @@ form#commant_form div.field textarea.custom_field {
 }
 
 .time_table {
-    background: rgba(255,255,255,.85);
+    background: rgba(255, 255, 255, .85);
     margin-top: 110px;
     min-height: 560px;
     padding: 30px;
 }
+
 .time_table2 {
-    background: rgba(255,255,255,.85);
+    background: rgba(255, 255, 255, .85);
     margin-top: 20px;
     min-height: 120px;
     padding: 30px;
     text-align: center;
 }
+
+/* BOTONES MORADOS */
 .purple_bt {
     width: 265px;
     height: 65px;
@@ -708,12 +712,13 @@ form#commant_form div.field textarea.custom_field {
 
 .purple_bt:hover,
 .purple_bt:focus {
-   background: #111;
-   color: #fff;
-   transition: ease all 0.5s;
+    background: #111;
+    color: #fff;
+    transition: ease all 0.5s;
 }
 
-.cours + h3 {
+/* BOTONES MORADOS */
+.cours+h3 {
     margin-top: 30px;
     font-size: 28px;
 }
@@ -730,7 +735,7 @@ form#commant_form div.field textarea.custom_field {
 }
 
 .time_table {
-    background: rgba(255,255,255,.85);
+    background: rgba(255, 255, 255, .85);
     margin-top: 110px;
     min-height: 560px;
     padding: 70px 200px;
@@ -776,6 +781,7 @@ body#inner_page header.header {
     position: relative;
 }
 
+/* PATRON DE MOSAICO  */
 .mosaic_pattern_bg {
     background-image: url('images/pink_bg.png');
     background-attachment: fixed;
@@ -796,11 +802,12 @@ body#inner_page header.header {
     color: #fff;
 }
 
-
+/* TERMINA PATRON DE MOSAICO  */
 form {
     position: relative;
 }
 
+/* BOTON DE DONACION EN PARTE INFERIOR */
 .donation button {
     background: #f06008;
     border: 10px;
@@ -812,13 +819,15 @@ form {
     font-weight: 300;
     line-height: 50px;
 }
+
 .donation button:hover,
 .donation button:focus {
-   background: #c62a88;
-   color: #fff;
-   transition: ease all 0.5s;
+    background: #c62a88;
+    color: #fff;
+    transition: ease all 0.5s;
 }
 
+/* TERMINA BOTON DE DONACION EN PARTE INFERIOR */
 .footer {
     background: #3a3a3a;
 }
@@ -1090,7 +1099,7 @@ a {
 
 
 
-
+/* DECORACION DE PUNTOS */
 .about_dottat {
     background: url('images/dottet_bg.png');
     background-size: cover;
@@ -1118,7 +1127,8 @@ a {
     z-index: 1;
 }
 
-.navbar-inverse .navbar-nav .nav-link, .navbar-nav .nav-link {
+.navbar-inverse .navbar-nav .nav-link,
+.navbar-nav .nav-link {
     font-size: 20px;
     font-weight: 400;
     line-height: normal;
@@ -1144,7 +1154,7 @@ header .main_menu .nav-item.active a.nav-link {
 }
 
 .navbar-toggleable-md .navbar-nav .nav-link {
-    padding: 22px 25px 22px ;
+    padding: 22px 25px 22px;
 }
 
 .header-section {
@@ -1269,10 +1279,11 @@ header .main_menu .nav-item.active a.nav-link {
     width: auto;
 }
 
-.site_information ul + ul {
+.site_information ul+ul {
     margin-top: 5px;
 
 }
+
 .site_information ul li {
     margin-left: 0;
 }
@@ -1311,64 +1322,7 @@ header .main_menu .nav-item.active a.nav-link {
     padding-left: 0;
 }
 
-/**---- search bar menu ----**/
 
-.header_bottom_section .search_bar {
-    float: right;
-    width: 275px;
-    height: 70px;
-    background: #111428;
-}
-
-.header_bottom_section .search_bar {
-    float: right;
-    width: 280px;
-    height: 70px;
-    background: #eaeaea;
-    padding: 21px 25px;
-}
-
-.header_bottom_section .search_bar form {
-    float: left;
-    width: 100%;
-}
-
-.header_bottom_section .search_bar form input.search_field {
-
-    width: 100%;
-    padding: 0;
-    border: none;
-    height: 25px;
-    color: #757474 !important;
-    background: #eaeaea;
-    font-weight: 200;
-    font-family: 'Poppins', sans-serif;
-    font-size: 17px;
-    letter-spacing: 0px;
-
-}
-
-
-.header_bottom_section .search_bar form input.search_field:focus {
-    box-shadow: none !important;
-}
-
-.header_bottom_section .search_bar form button {
-    position: absolute;
-    width: 25px;
-    padding: 0;
-    background: transparent;
-    border: none;
-    color: #757474;
-    font-size: 21px;
-    right: 32px;
-    cursor: pointer;
-}
-
-.header_bottom_section .search_bar ::placeholder {
-    color: #bab6b6;
-    opacity: 1;
-}
 /*-------------------------------------------------------------------
     4.section
 -------------------------------------------------------------------*/
@@ -1409,8 +1363,8 @@ header .main_menu .nav-item.active a.nav-link {
 }
 
 .page_title h2::first-letter {
-    font-size: 80px;   
-    color: #070100; 
+    font-size: 80px;
+    color: #070100;
 }
 
 .heading_s1 h2 span {
@@ -1436,15 +1390,18 @@ header .main_menu .nav-item.active a.nav-link {
     width: 100%;
     letter-spacing: -0.5px;
 }
-    
-.movimiento:hover{
-            transform:scale(0.8);
-            -ms-transform:scale(0.8); 
-            -moz-transform:scale(0.8); 
-            -webkit-transform:scale(0.8);
-            -o-transform:scale(0.8); 
+
+/*MOVIMIENTO DE TITULOS AL PASAR MOUSE  */
+.movimiento:hover {
+    transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -webkit-transform: scale(0.8);
+    -o-transform: scale(0.8);
 }
-.icons{
+
+/* ICONOS SOCIAL MEDIA */
+.icons {
     position: fixed;
     top: 30%;
     left: 0%;
@@ -1454,10 +1411,11 @@ header .main_menu .nav-item.active a.nav-link {
     margin: 2px;
     z-index: 1;
     text-align: right;
-    
+
 
 }
-.icons a{
+
+.icons a {
     text-decoration: none;
     text-transform: uppercase;
     padding: 10px;
@@ -1465,9 +1423,14 @@ header .main_menu .nav-item.active a.nav-link {
     font-family: 'Oswald', sans-serif;
     margin: 2px;
     border-radius: 0px 50px 50px 0px;
-    transform: translate(-180px,0px);
+    transform: translate(-180px, 0px);
 }
-.icons a i{
+
+.icons a:hover {
+    transform: translate(-160px, 0px);
+}
+
+.icons a i {
     margin-left: 25px;
     background-color: white;
     height: 40px;
@@ -1477,33 +1440,41 @@ header .main_menu .nav-item.active a.nav-link {
     line-height: 40px;
     border-radius: 50%;
 }
-.icons a i.fa-facebook-f{
-    color:#2C80D3 ;
-}
-.icons a i.fa-youtube{
-    color:#fa0910 ;
-}
-.icons a i.fa-instagram{
-    color:rgb(131,58,180) ;
-}
-.icons a i.fa-whatsapp{
-    color:#075e54 ;
-}
-.facebook{
-    background-color:#2C80D3;
-    color: white;
 
+.facebook {
+    background-color: #2C80D3;
+    color: white;
 }
-.youtube{
+
+.icons a i.fa-facebook-f {
+    color: #2C80D3;
+}
+
+.youtube {
     background-color: #fa0910;
     color: white;
 }
-.instagram{
-    background-color: rgb(131,58,180);
+
+.icons a i.fa-youtube {
+    color: #fa0910;
+}
+
+.instagram {
+    background-color: rgb(131, 58, 180);
     color: white;
 }
-.whatsapp{
-    background-color:#075e54;
-    color: white;
-    
+
+.icons a i.fa-instagram {
+    color: rgb(131, 58, 180);
 }
+
+.whatsapp {
+    background-color: #075e54;
+    color: white;
+}
+
+.icons a i.fa-whatsapp {
+    color: #075e54;
+}
+
+/* TERMINA ICONOS SOCIAL MEDIA */
