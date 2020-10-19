@@ -1481,15 +1481,11 @@ header .main_menu .nav-item.active a.nav-link {
 /* MINI MENU DE CURSOS */
 .cursos_menu .cursos{
     display: none;
-    float: left;
-    clear: left;
 }
 .cursos_menu ul{
     /* background-color: transparent; */
-    height: 160px;
+    padding-bottom: 1;
     margin: 0%;
-    float: left;
-    clear: left;
 }
 .cursos_menu:hover > ul{
     display: inline-block;
