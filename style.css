@@ -1476,6 +1476,9 @@ header .main_menu .nav-item.active a.nav-link {
 .icons a i.fa-whatsapp {
     color: #075e54;
 }
+.phone_number{
+    background-color: #392091
+}
 
 /* TERMINA ICONOS SOCIAL MEDIA */
 /* MINI MENU DE CURSOS */
