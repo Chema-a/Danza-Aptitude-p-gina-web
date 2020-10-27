@@ -1568,3 +1568,6 @@ header .main_menu .nav-item.active a.nav-link {
     box-shadow: 0 5px 25px rgba(0, 0, 0,.5);
 }
 
+.schedule{
+    display: none;
+}
