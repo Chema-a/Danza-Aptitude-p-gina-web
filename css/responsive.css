@@ -473,7 +473,7 @@ button.navbar-toggler span:nth-child(1) {
 
 @media (max-width: 575px) {
     .icons a{
-        transform: translate(-200px,0px);
+        transform: translate(-500px,0px);
     }
     .site_information {
         padding-top: 0;
@@ -765,7 +765,7 @@ button.navbar-toggler span:nth-child(1) {
 
 @media (max-width: 768px) {
     .icons a{
-        transform: translate(-200px,0px);
+        transform: translate(-215px,0px);
     }
 .time_table {
     background: rgba(255,255,255,.85);
