@@ -1587,3 +1587,8 @@ header .main_menu .nav-item.active a.nav-link {
     width:100%;
     position:absolute;
 }
+
+.body .contenedor{
+/*max-width: 100%;*/
+width: auto;
+}
