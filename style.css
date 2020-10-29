@@ -13,6 +13,8 @@ body {
     font-size: 14px;
     line-height: normal;
     background-color: #fff;
+    /*width: auto;*/
+    /*max-width: 100%;*/
 }
 
 body {
@@ -809,7 +811,7 @@ form {
 
 /* BOTON DE DONACION EN PARTE INFERIOR */
 .donation button {
-    background: #f06008;
+    background: #c886e5;
     border: 10px;
     color: black;
     float: left;
@@ -823,6 +825,25 @@ form {
 .donation button:hover,
 .donation button:focus {
     background: #c62a88;
+    color: #fff;
+    transition: ease all 0.5s;
+}
+/*BOTON YOUTUBE*/
+.donatio button {
+    background: #c886e;
+    border: 10px;
+    color: black;
+    float: left;
+    width: 170px;
+    height: 60px;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 50px;
+}
+
+.donatio button:hover,
+.donatio button:focus {
+    background: #fa0910;
     color: #fff;
     transition: ease all 0.5s;
 }
@@ -1343,7 +1364,7 @@ header .main_menu .nav-item.active a.nav-link {
     position: relative;
     display: block;
     padding: 4rem 0;
-    background-color: #f4ebc1;
+    background-color: #9f9f9f;
 }
 
 
@@ -1586,9 +1607,4 @@ header .main_menu .nav-item.active a.nav-link {
     height:100%;
     width:100%;
     position:absolute;
-}
-
-.body .contenedor{
-/*max-width: 100%;*/
-width: auto;
 }
