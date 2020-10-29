@@ -828,26 +828,12 @@ form {
     color: #fff;
     transition: ease all 0.5s;
 }
-/*BOTON YOUTUBE*/
-.donatio button {
-    background: #c886e;
-    border: 10px;
-    color: black;
-    float: left;
-    width: 170px;
-    height: 60px;
-    font-size: 22px;
-    font-weight: 300;
-    line-height: 50px;
+/*VIDEO*/
+.col-md-12{
+    align-items: center;
+    align-self: center;
+        text-align: center;
 }
-
-.donatio button:hover,
-.donatio button:focus {
-    background: #fa0910;
-    color: #fff;
-    transition: ease all 0.5s;
-}
-
 /* TERMINA BOTON DE DONACION EN PARTE INFERIOR */
 .footer {
     background: #3a3a3a;
