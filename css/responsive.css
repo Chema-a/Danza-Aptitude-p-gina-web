@@ -155,6 +155,10 @@ button.navbar-toggler span:nth-child(1) {
     .icons a{
         transform: translate(-200px,0px);
     }
+    .video{
+        width: 100%;
+        height: auto; 
+    }
     /* termina tamaño de iconos */
     .navbar-toggleable-md .navbar-nav .nav-link {
         padding-left: 18px;
@@ -475,6 +479,10 @@ button.navbar-toggler span:nth-child(1) {
     .icons a{
         transform: translate(-500px,0px);
     }
+    .video{
+        width: 100%;
+        height: auto; 
+    }
     .site_information {
         padding-top: 0;
     }
@@ -766,6 +774,10 @@ button.navbar-toggler span:nth-child(1) {
 @media (max-width: 768px) {
     .icons a{
         transform: translate(-215px,0px);
+    }
+    .video{
+        width: 100%;
+        height: auto; 
     }
 .time_table {
     background: rgba(255,255,255,.85);
