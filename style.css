@@ -1,7 +1,5 @@
 @import "lesshat";
-
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
-
 @import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
 @import url('https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
 
@@ -186,7 +184,6 @@ a {
     padding-left: 0;
     margin: 0;
 }
-
 
 hr.invis {
     border: 0;
@@ -628,8 +625,7 @@ form#commant_form div.field textarea.custom_field {
 }
 
 .slide_cont {
-    position:
-        absolute;
+    position: absolute;
     top: 415px;
     width: 100%;
 }
@@ -641,6 +637,7 @@ form#commant_form div.field textarea.custom_field {
 
 .slider_banner img {
     width: 100%;
+    background-attachment: fixed;
 }
 
 .slider_banner {
@@ -648,9 +645,17 @@ form#commant_form div.field textarea.custom_field {
     text-align: center;
 }
 
+.wave {
+    float: left;
+    margin-top: 1100px;
+    position: absolute;
+    margin-bottom: 0px;
+    left: 0;
+}
+
 .slide_cont {
     position: absolute;
-    top: 415px;
+    top: 390px;
 }
 
 .slide_cont h3 {
@@ -662,18 +667,14 @@ form#commant_form div.field textarea.custom_field {
 }
 
 .slider_cont_inner {
-
     width: 1085px;
     text-align: center;
     margin: 0 auto;
-
 }
 
 .slider_cont_inner p {
-
     color: #fff;
     font-size: 21px;
-
 }
 
 .time_table ul li {
@@ -697,11 +698,13 @@ form#commant_form div.field textarea.custom_field {
     text-align: center;
 }
 
+
 /* BOTONES MORADOS */
+
 .purple_bt {
     width: 265px;
     height: 65px;
-    background: #a37eba;
+    background: #b60c6a;
     color: #fff;
     text-align: center;
     line-height: 65px;
@@ -709,17 +712,20 @@ form#commant_form div.field textarea.custom_field {
     font-weight: 400;
     margin: 45px auto 0;
     display: flex;
+    border-radius: 10px;
     justify-content: center;
 }
 
 .purple_bt:hover,
 .purple_bt:focus {
-    background: #111;
-    color: #fff;
+    background: rgb(255, 237, 237);
+    color: #b60c6a;
     transition: ease all 0.5s;
 }
 
+
 /* BOTONES MORADOS */
+
 .cours+h3 {
     margin-top: 30px;
     font-size: 28px;
@@ -783,7 +789,9 @@ body#inner_page header.header {
     position: relative;
 }
 
+
 /* PATRON DE MOSAICO  */
+
 .mosaic_pattern_bg {
     background-image: url('images/pink_bg.png');
     background-attachment: fixed;
@@ -804,12 +812,16 @@ body#inner_page header.header {
     color: #fff;
 }
 
+
 /* TERMINA PATRON DE MOSAICO  */
+
 form {
     position: relative;
 }
 
+
 /* BOTON DE DONACION EN PARTE INFERIOR */
+
 .donation button {
     background: #f06008;
     border: 10px;
@@ -828,13 +840,24 @@ form {
     color: #fff;
     transition: ease all 0.5s;
 }
+
+
 /*VIDEO*/
-.col-md-12{
+
+.col-md-12 {
     align-items: center;
     align-self: center;
-        text-align: center;
+    text-align: center;
 }
+
+.video {
+    width: 660px;
+    height: 400px;
+}
+
+
 /* TERMINA BOTON DE DONACION EN PARTE INFERIOR */
+
 .footer {
     background: #3a3a3a;
 }
@@ -935,7 +958,6 @@ div.tab button:hover {
     font-size: 14px;
 }
 
-
 .footer,
 .header .dropdown-item,
 .header .dropdown-item:hover,
@@ -1024,8 +1046,6 @@ div.tab button.active,
     line-height: 1;
 }
 
-
-
 select.form-control:not([size]):not([multiple]) {
     color: #767676;
 }
@@ -1105,15 +1125,16 @@ a {
 }
 
 
-
 /* DECORACION DE PUNTOS */
+
 .about_dottat {
     background: url('images/dottet_bg.png');
     background-size: cover;
-    background-color: #f4ebc1;
+    background-color: #464608;
     background-blend-mode: hard-light;
     background-position: center bottom;
 }
+
 
 /*-------------------------------------------------------------------
     3.header
@@ -1170,8 +1191,10 @@ header .main_menu .nav-item.active a.nav-link {
 }
 
 .logo img {
-    max-width: 324px;
+    padding-top: 10px;
+    max-width: 354px;
     max-width: 100%;
+    padding-top: 20px;
     margin: auto;
     text-align: center;
     display: block;
@@ -1260,11 +1283,13 @@ header .main_menu .nav-item.active a.nav-link {
     background-color: #121212;
 }
 
+
 /**---- header top ----**/
 
 .header_top_section {
     min-height: auto;
 }
+
 
 /**---- logo ----**/
 
@@ -1288,7 +1313,6 @@ header .main_menu .nav-item.active a.nav-link {
 
 .site_information ul+ul {
     margin-top: 5px;
-
 }
 
 .site_information ul li {
@@ -1316,6 +1340,7 @@ header .main_menu .nav-item.active a.nav-link {
     justify-content: center;
     align-items: center;
 }
+
 
 /**---- header bottom section ----**/
 
@@ -1350,9 +1375,8 @@ header .main_menu .nav-item.active a.nav-link {
     position: relative;
     display: block;
     padding: 4rem 0;
-    background-color: #f4ebc1;
+    background-color: #ffffff;
 }
-
 
 .heading_s1 h2 {
     font-size: 60px;
@@ -1364,7 +1388,7 @@ header .main_menu .nav-item.active a.nav-link {
 }
 
 .heading_s1 h2::first-letter {
-    color: #726a95;
+    color: #b60c6a;
     font-size: 100px;
     font-weight: 700;
 }
@@ -1398,7 +1422,9 @@ header .main_menu .nav-item.active a.nav-link {
     letter-spacing: -0.5px;
 }
 
+
 /*MOVIMIENTO DE TITULOS AL PASAR MOUSE  */
+
 .movimiento:hover {
     transform: scale(0.8);
     -ms-transform: scale(0.8);
@@ -1407,7 +1433,9 @@ header .main_menu .nav-item.active a.nav-link {
     -o-transform: scale(0.8);
 }
 
+
 /* ICONOS SOCIAL MEDIA */
+
 .icons {
     position: fixed;
     top: 30%;
@@ -1418,8 +1446,6 @@ header .main_menu .nav-item.active a.nav-link {
     margin: 2px;
     z-index: 1;
     text-align: right;
-
-
 }
 
 .icons a {
@@ -1483,91 +1509,111 @@ header .main_menu .nav-item.active a.nav-link {
 .icons a i.fa-whatsapp {
     color: #075e54;
 }
-.phone_number{
+
+.phone_number {
     background-color: #392091
 }
 
+
 /* TERMINA ICONOS SOCIAL MEDIA */
+
+
 /* MINI MENU DE CURSOS */
-.cursos_menu .cursos{
+
+.cursos_menu .cursos {
     display: none;
 }
-.cursos_menu ul{
+
+.cursos_menu ul {
     /* background-color: transparent; */
     padding-bottom: 1;
     margin: 0%;
 }
-.cursos_menu:hover > ul{
+
+.cursos_menu:hover>ul {
     display: inline-block;
-
 }
-.cursos_menu:hover > .fade_out{
+
+.cursos_menu:hover>.fade_out {
     display: none;
-
 }
+
+
 /*TERMINA MINI MENU DE CURSOS */
+
+
 /* GALERIAS */
-.slidershow{
+
+.slidershow {
     width: 100%;
     height: 100%;
-  }
-  .middle{
+}
+
+.middle {
     position: absolute;
     top: 30%;
     left: 50%;
-    transform: translate(-50%,-50%);
-  }
-  .navigation{
+    transform: translate(-50%, -50%);
+}
+
+.navigation {
     position: absolute;
     top: 45%;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
-  }
-  .bar{
+}
+
+.bar {
     width: 50px;
     height: 10px;
     border: 2px solid #fff;
     margin: 6px;
     cursor: pointer;
     transition: 0.4s;
-  }
-  .bar:hover{
+}
+
+.bar:hover {
     background: #fff;
-  }
-  
-  input[name="r"]{
-      position: absolute;
-      visibility: hidden;
-  }
-  
-  .slides{
+}
+
+input[name="r"] {
+    position: absolute;
+    visibility: hidden;
+}
+
+.slides {
     width: 500%;
     height: 100%;
     display: flex;
-  }
-  
-  .slide{
+}
+
+.slide {
     width: 20%;
     transition: 0.6s;
-  }
-  .slide img{
+}
+
+.slide img {
     width: 100%;
     height: 100%;
-  }
-  
-  #r1:checked ~ .s1{
+}
+
+#r1:checked~.s1 {
     margin-left: 0;
-  }
-  #r2:checked ~ .s1{
+}
+
+#r2:checked~.s1 {
     margin-left: -20%;
-  }
-  #r3:checked ~ .s1{
+}
+
+#r3:checked~.s1 {
     margin-left: -40%;
-  }
-  /*TERMINA GALERIA  */
-.box select
-{
+}
+
+
+/*TERMINA GALERIA  */
+
+.box select {
     background: white;
     color: black;
     padding: 10px;
@@ -1575,22 +1621,24 @@ header .main_menu .nav-item.active a.nav-link {
     height: 50px;
     border: none;
     font-size: 20px;
-    box-shadow: 0 5px 25px rgba(0, 0, 0,.5);
+    box-shadow: 0 5px 25px rgba(0, 0, 0, .5);
 }
 
-.schedule{
+.schedule {
     display: none;
 }
-.map-responsive{
-    overflow:hidden;
-    padding-bottom:56.25%;
-    position:relative;
-    height:0;
+
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
 }
-.map-responsive iframe{
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
+
+.map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
 }
