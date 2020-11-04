@@ -2,6 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 @import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
 @import url('https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
 #inner {
     width: 100%;
     margin: 0 auto;
@@ -28,23 +29,7 @@
     2.BASICO
 -------------------------------------------------------------------*/
 
-body {
-    font-size: 14px;
-    line-height: normal;
-    background-color: #fff;
-    /*width: auto;*/
-    /*max-width: 100%;*/
-}
 
-body {
-    overflow-x: hidden;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 h1,
 h2,
@@ -657,12 +642,13 @@ form#commant_form div.field textarea.custom_field {
 }
 
 .slider_banner img {
-    width: 100%;
+    max-width: 100%;
+    width: au;
     background-attachment: fixed;
 }
 
 .slider_banner {
-    position: relative;
+    
     text-align: center;
 }
 
@@ -688,7 +674,7 @@ form#commant_form div.field textarea.custom_field {
 }
 
 .slider_cont_inner {
-    width: 1085px;
+    max-width: 1085px;
     text-align: center;
     margin: 0 auto;
 }
