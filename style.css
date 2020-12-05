@@ -2,7 +2,6 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 @import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
 @import url('https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
-
 #inner {
     width: 100%;
     margin: 0 auto;
@@ -13,13 +12,13 @@
 }
 
 @media screen and (min-width: 480px) {
-    #inner{
+    #inner {
         width: 50%;
     }
 }
 
 @media screen and (min-width: 780px) {
-    #inner{
+    #inner {
         width: 33%;
     }
 }
@@ -28,8 +27,6 @@
 /*-------------------------------------------------------------------
     2.BASICO
 -------------------------------------------------------------------*/
-
-
 
 h1,
 h2,
@@ -648,7 +645,6 @@ form#commant_form div.field textarea.custom_field {
 }
 
 .slider_banner {
-    
     text-align: center;
 }
 
@@ -857,38 +853,56 @@ form {
     text-align: center;
 }
 
-.delimitador{
-    width:560px;    /* Ancho máximo */
-    margin:auto;    /* Centramos el vídeo */
+.delimitador {
+    width: 560px;
+    /* Ancho máximo */
+    margin: auto;
+    /* Centramos el vídeo */
 }
 
 .video {
-    height:0px;
-    width:100%;
-    padding-top:56.25%; /* Relación: 16/9 = 56.25% */
-    position:relative;
+    height: 0px;
+    width: 100%;
+    padding-top: 56.25%;
+    /* Relación: 16/9 = 56.25% */
+    position: relative;
 }
 
-.video iframe{
-    position:absolute;
-    height:100%;
-    width:100%;
-    top:70px;
+.video iframe {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 70px;
     bottom: 70px;
-    left:0px;
+    left: 0px;
 }
+
 
 /* TERMINA BOTON DE DONACION EN PARTE INFERIOR */
 
-.footer {
-    background: #3a3a3a;
+
+/*-------FOOTER STYLES ----------*/
+
+.footerr {
+    background: #0a1f4d;
+    color: #fff;
 }
 
-.footer_link_heading h3 {
+.logo-footer {
+    width: 50px;
+    height: 50px;
+}
+
+.footer-link {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: normal;
     color: #fff;
-    font-size: 22px;
-    font-weight: 300;
-    letter-spacing: 0;
+    letter-spacing: 0px;
+}
+
+.footer-link:hover {
+    color: #fff;
 }
 
 .footer_menu ul {
