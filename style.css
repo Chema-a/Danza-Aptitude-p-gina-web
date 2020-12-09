@@ -1693,3 +1693,9 @@ input[name="r"] {
     width: 100%;
     position: absolute;
 }
+.link1{
+    background-color: #bedcfa;
+}
+.link1:hover{
+    background-color: #fcf8ec; 
+}
