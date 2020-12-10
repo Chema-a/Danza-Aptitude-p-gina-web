@@ -347,7 +347,7 @@ hr.invis {
 
 .full {
     width: 100%;
-    float: left;
+    justify-content: center;
 }
 
 .only_md_display {
